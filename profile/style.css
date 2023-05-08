@@ -1,0 +1,173 @@
+body {
+  background-color: rgb(241, 241, 241);
+  font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+  background-color: #ddbff2;
+  padding: 3%;
+  padding-top: 17%;
+  color: white;
+  font-weight: 300;
+  font-size: 80px;
+  line-height: 80px;
+  transition: 1s;
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+h1:hover {
+  color: #ddbff2;
+  background-color: rgb(143, 192, 172);
+  transition: .5s;
+  font-size: 120px;
+  line-height: 100px;
+}
+
+h2 {
+  color: #ddbff2;
+  font-weight: 300;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+}
+
+h3 {
+  color: #ddbff2;
+  font-size: 30px;
+  text-align: center;
+}
+
+img {
+  height: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.5s;
+}
+
+img:hover{
+  background-color: rgb(143, 192, 172);
+  opacity: 70%;
+  transition: 0.5s;
+}
+
+strong:hover {
+color: rgb(208, 151, 151);
+}
+
+p {
+  margin-left: 10%;
+  margin-right: 10%;
+  color: darkslategrey;
+  text-align: justify;
+}
+
+ul {
+  display:flex;
+  justify-content: center;
+}
+
+li {
+  display: inline-block;
+  padding: 10px;
+  list-style: none;
+}
+
+button {
+  background-color: #ddbff2;;
+  padding: 15px;
+  border-radius: 40px;
+  border: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: darkslategrey;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: rgb(143, 192, 172);
+  padding: 20px;
+  transition: 0.3s;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a {
+  color:darkslategrey;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #ddbff2;
+  transition: 0.s;
+}
+
+.container {
+  background-color:white;
+  padding-top: 30px;
+  margin-left: 80px;
+  margin-right: 80px;
+  border-radius: 4px;
+  padding-bottom: 30px;
+}
+
+@media (min-width: 960px) {
+  .container {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  h1 {
+    font-size: 130px;
+    line-height: 100px;
+  }
+
+  h1:hover {
+    font-size: 170px;
+    line-height: 150px;
+  }
+
+  img {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  p {
+    text-align: left;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    margin-top:2%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  img {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
